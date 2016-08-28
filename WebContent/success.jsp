@@ -9,7 +9,7 @@
 </head>
 <body>
 <p style="background-color:lightblue;">
-The capital of the country is ${user.result}
+The capital of the country is ${result}
 </p>
 </body>
 </html>

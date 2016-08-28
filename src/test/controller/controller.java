@@ -19,7 +19,7 @@ public class controller extends HttpServlet{
 		RequestDispatcher rd=null;
      	authenticate authenticato=new authenticate();
      	String result=authenticato.authenticator(country);
-     	
+     	request.setAttribute("result",result);
      	rd=request.getRequestDispatcher("/success.jsp");
      	
      	rd.forward(request, response);
